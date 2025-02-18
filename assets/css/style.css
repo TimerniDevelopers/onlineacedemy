@@ -1509,7 +1509,10 @@ select {
         padding: 15px 25px;
     }
 }
-
+.logo-img{
+    max-width: 120px;
+    margin: 10px 0px;
+}
 
 /*===== All Preloader Style =====*/
 
