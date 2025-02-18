@@ -3130,7 +3130,90 @@ span.top-cc {
     color: #000;
     font-size: 11px;
 }
+.info-bar {
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+}
 
+
+ .info-bar .offer-box {
+    height: 86px;
+    width: 100%;
+    line-height: 86px;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background: #2f047a;
+}
+.info-bar .offer-box h3{
+    color: #fff;
+    font-size: 25px;
+}
+.info-bar .inner-content {
+    -webkit-box-shadow: 12.9px 15.3px 18px 0 rgba(0, 0, 0, 0.08);
+    -khtml-box-shadow: 12.9px 15.3px 18px 0 rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 12.9px 15.3px 18px 0 rgba(0, 0, 0, 0.08);
+    -ms-box-shadow: 12.9px 15.3px 18px 0 rgba(0, 0, 0, 0.08);
+    -o-box-shadow: 12.9px 15.3px 18px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 12.9px 15.3px 18px 0 rgba(0, 0, 0, 0.08);
+    background: #ffffff;
+}
+.info-bar .inner-content .button-box .intro {
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 0;
+    padding: 0 15px;
+    color: #949390;
+}
+.info-bar .coupon{
+    text-align: center; font-size: 15px; font-weight: 300; letter-spacing: 0.3px;
+}
+.info-bar .button-box{
+    padding: 30px;
+}
+.info-bar .inner-content .includes-box {
+    padding: 30px;
+    border-top: 1px solid;
+    border-color: #e2e0db;
+}
+ .info-bar .inner-content .includes-box .title {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+.info-bar .inner-content .includes-box ul {
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.info-bar .inner-content .includes-box ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-transform: capitalize;
+}
+.info-bar .inner-content .includes-box ul li i {
+    margin-right: 7px;
+    font-weight: 900;
+    font-size: 24px;
+}
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
