@@ -1728,7 +1728,9 @@ select {
     top: 40%;
     left: -57px;
 }
-
+.about-right-box-w .video-icon{
+    top: 47%;
+}
 /* course  */
 .course-area .content {
     overflow: hidden;

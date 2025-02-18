@@ -99,6 +99,22 @@ $(document).ready(function($) {
         srcAction: 'iframe_src',
     }
     });  
+    	   // Magnific popup
+   $('.video-thumbnail').magnificPopup({
+    type: 'iframe',
+    iframe: {
+        patterns: {
+            youtube: {
+                index: 'https://www.youtube.com/',
+
+                id: 'v=',
+                src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+            }
+
+        },
+        srcAction: 'iframe_src',
+    }
+    });  
     $('.testimonials-carousel').owlCarousel({
         loop: false,
         dots:true,
