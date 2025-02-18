@@ -1814,7 +1814,7 @@ select {
 /* resource  */
 .resource-left{
     position: relative;
-    z-index: 111;
+    z-index: 11;
 }
 .resource-left:after{
     content: "";
@@ -2888,7 +2888,7 @@ span.top-cc {
     color:#fff ;
 
 }
-.single .course-thumbnail .time {
+.main-course .course-thumbnail .time {
     position: absolute;
     width: 101px;
     height: 93px;
@@ -2898,12 +2898,20 @@ span.top-cc {
     color: #fff;
     background: #2f047a;
 }
-.single .course-thumbnail .time .date-start {
-    font-size: 35px;
+.main-course .course-thumbnail .time .date-start {
+    font-size: 25px;
     font-weight: 500;
     line-height: 0.63;
     letter-spacing: 0.7px;
     margin-top: 24px;
+}
+.main-course .course-thumbnail .time .month-start {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.22;
+    letter-spacing: 0.9px;
+    margin-top: 7px;
 }
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
