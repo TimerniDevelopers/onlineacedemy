@@ -1765,7 +1765,7 @@ select {
     height: 0px;
     display: inline-block;
     position: absolute;
-    z-index: 999;
+    z-index: 9;
     border-top: 86px solid rgb(255, 174, 0);
     border-right: 86px solid transparent;
 }
@@ -2803,9 +2803,108 @@ span.top-cc {
   }
   
   
+  .page-title {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 160px 0 120px;
+    min-height: 250px;
+    text-align: center;
+    z-index: 11;
+    margin-bottom: 100px;
+}
+.page-title:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #2e2e2b;
+    opacity: 0.75;
+    content: "";
+}
+.page-title .title {
+    margin-top: 25px;
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 12px;
+    position: relative;
+}
   
-  
-  
+.page-breadcrumb {
+    position: relative;
+    margin-top: 5px;
+}
+.page-breadcrumb li {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.page-breadcrumb .breadcrumb-item a,
+.page-breadcrumb .breadcrumb-item {
+    color: #e0a965;
+}
+.page-breadcrumb  .breadcrumb-item.active {
+    color: #fff;
+}
+.page-breadcrumb li:last-child {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+/* course */
+.main-course .course-thumbnail {
+    position: relative;
+}
+.main-course .course-thumbnail .play-button {
+    position: absolute;
+    left: 101px;
+    bottom: 0;
+    width: 101px;
+    height: 93px;
+    top: auto;
+    background: rgb(32, 33, 33);
+}
+.main-course .course-thumbnail .play-button .video-thumbnail {
+    height: 47px;
+    width: 47px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 23px;
+    left: 27px;
+    text-align: center;
+    line-height: 47px;
+    -webkit-transition: 0.3s;
+    -khtml-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    color:#fff ;
+
+}
+.single .course-thumbnail .time {
+    position: absolute;
+    width: 101px;
+    height: 93px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    background: #2f047a;
+}
+.single .course-thumbnail .time .date-start {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 0.63;
+    letter-spacing: 0.7px;
+    margin-top: 24px;
+}
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
@@ -2838,3 +2937,5 @@ span.top-cc {
 .container {width:450px}
  
 }
+
+
