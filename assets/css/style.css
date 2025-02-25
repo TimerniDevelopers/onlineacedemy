@@ -1141,6 +1141,14 @@ ul {
     opacity: 1;
     background: #2f047a;
 }
+.btn-style-one{
+    background: #2f047a;
+}
+.btn-style-one:hover:before{
+    width: 100%;
+    opacity: 1;
+    background: #e0a965;
+}
 .sec-title h2 {
     font-size: 36px;
     font-weight: 700;
@@ -4304,38 +4312,18 @@ span.top-cc {
   .sidebar__post-content .title a{
     color: #000;
   }
+  .com-pagination .page-link {
+    color: #2f047a;
+    background-color: #fff;
+}
+.info a{
+    color: #000;
+}
 
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+/* @media (min-width: 1200px) and (max-width: 1500px) {
 
 
-}
-
-
-/* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
-
-
-}
-
- 
-/* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
-
-
-}
-
- 
-/* small mobile :320px. */
-@media (max-width: 767px) {
-
- 
-}
- 
-/* Large Mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
-}
+} */
 
 
